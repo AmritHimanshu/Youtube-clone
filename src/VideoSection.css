@@ -1,0 +1,35 @@
+.videoSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 13px;
+  padding-bottom: 0;
+  max-height: 93vh;
+}
+
+.videoSection__first {
+  /* border: 2px solid red; */
+  width: 80vw;
+  overflow-x: hidden;
+}
+
+.videoSection__second {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 30px;
+  padding-top: 30px;
+  padding-bottom: 0;
+  margin-top: 20px;
+  overflow-y: auto;
+  /* max-height: 89vh; */
+}
+
+.videoSection__second::-webkit-scrollbar {
+  display: none;
+}
+
+.videoSection__second {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

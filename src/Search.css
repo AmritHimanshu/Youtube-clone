@@ -1,0 +1,9 @@
+.search {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  margin-left: 240px;
+  padding-bottom: 0;
+  margin-top: 20px;
+}
